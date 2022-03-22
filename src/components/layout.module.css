@@ -1,0 +1,30 @@
+.container {
+  margin: auto;
+  max-width: 600px;
+  font-family: sans-serif;
+}
+
+.container header {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+.container h1 {
+  color: rebeccapurple;
+}
+
+.container nav>ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.container nav>ul>li {
+  padding-right: 2rem;
+}
+
+.container nav>ul>li>a {
+  color: black;
+}
